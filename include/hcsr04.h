@@ -7,9 +7,7 @@
 #define ECHO PD3
 
 
-void HCSR04_init();
-void HCSR04_trigger();
-
-uint16_t HCSR04_read();
+void HCSR04_init(void);
+uint16_t HCSR04_measure(void); // returneaza in cm, 0 la timeout
 
 #endif
